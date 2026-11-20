@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    height: 540px;
+    margin: auto;
+    border: 3px solid cyan;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    direction: rtl;
+    gap: 6px;
+}
+
+.column {
+    border: 2px solid #333;
+    padding: 6px;
+    text-align: left;
+    direction: ltr;
+}
